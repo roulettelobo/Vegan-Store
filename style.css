@@ -1,0 +1,449 @@
+/* font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif; */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #8b8b99;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+}
+
+/* Nav Section */
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 2rem;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.nav-menu {
+  visibility: hidden;
+  display: none;
+  margin: 0;
+}
+
+.nav-item {
+  list-style: none;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin: 0 1rem;
+}
+
+.nav-btn,
+.section8-btn {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: rgb(170, 210, 54);
+  padding: 9px 34px;
+  border-radius: 4px;
+}
+
+.nav-btn {
+  margin: 0 2rem;
+}
+
+/* Section 1 */
+
+.section1 {
+  background: url("img/landing-background.png");
+  text-align: center;
+  padding: 200px 0;
+}
+
+.section1-header {
+  font-size: 1.75rem;
+  color: black;
+  letter-spacing: 8.8px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.section1-content {
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+/* Section 2 */
+
+.section2 {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.col {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.section2-icon {
+  font-size: 6rem;
+  transition: font-size 0.5s ease;
+}
+
+.section2-icon:hover {
+  font-size: 6.5rem;
+}
+
+.section2-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.section2-content {
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  padding: 0 2.5rem;
+}
+
+.section2-col1 {
+  background-color: #5acda6;
+}
+
+.section2-col2 {
+  background-color: #91ac41;
+}
+
+.section2-col3 {
+  background-color: #e4b476;
+}
+
+.section2-col4 {
+  background-color: #f69dad;
+}
+
+/* Section 3 */
+
+.section3 {
+  background-color: #f7eee2;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.pre-text {
+  color: #91ac41;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+}
+
+.section3-header,
+.section4-header,
+.section5-header,
+.section8-header {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: black;
+  margin: 1rem 0;
+}
+
+.section3-text,
+.section4-text {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.section3-icon {
+  font-size: 3.75rem;
+  color: #fff;
+  background-color: #e3b375;
+  border-radius: 50%;
+  padding: 40px;
+  transition: font-size 0.3s ease;
+}
+
+.section3-icon:hover {
+  font-size: 4.25rem;
+}
+
+.section3-subheader,
+.section8-subheader {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.section3-col {
+  width: 100%;
+  padding: 2.5rem 0;
+}
+
+/* Section 4 */
+
+.section4 {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #f5f6fb;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  margin-bottom: 1rem;
+  padding: 1.5rem 0;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 2px #9d9ea3, -4px 0 2px #9d9ea3;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.author {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+.author-profession {
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: 0;
+}
+
+/* Section 5 */
+
+img {
+  width: 100%;
+}
+
+.section5-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section {
+  background-image: url("img/berries.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 2rem;
+}
+
+.section5-input {
+  padding: 15px 20px;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+
+.section5-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: #f69dad;
+  border: 1px solid #f69dad;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 34px;
+  border-radius: 4px;
+}
+
+.section5-btn:hover {
+  background-color: #fff;
+  color: #f69dad;
+  border-color: #f69dad;
+}
+
+/* Section 6 */
+
+.section6 {
+  background-color: #f6fcfa;
+  padding: 4rem 0;
+}
+
+.stats-header {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.stats-text {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #57e3b5;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+/* Section 7 */
+
+.section7 {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.section7 h2 {
+  font-weight: 600;
+}
+
+.section7 hr {
+  width: 25%;
+  color: #e4b476;
+  margin-bottom: 2rem;
+}
+
+/* Section 8 */
+
+.section8-flex {
+  display: block;
+}
+
+.form-list {
+  list-style: none;
+  padding: 0;
+}
+
+.form-list li {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  width: 84%;
+  border: 1px solid #e5e6ec;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+textarea {
+  height: 5em;
+}
+
+/* Section 9 */
+
+.section9 {
+  background-color: #232323;
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  padding: 2.5rem 0;
+}
+
+@media (min-width: 900px) {
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: inline-flex;
+    visibility: visible;
+  }
+
+  .nav-item:hover,
+  .nav-link:hover,
+  .nav-submenu:hover {
+    color: green;
+  }
+
+  ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+  .nav-submenu {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+
+  .section1-header {
+    font-size: 2.75rem;
+  }
+
+  .section2-flex,
+  .section3-flex,
+  .section6-flex,
+  .section8-flex {
+    display: flex;
+  }
+
+  .section3-col {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .card-flex,
+  .section5-flex {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .section8-flex {
+    justify-content: space-between;
+  }
+
+  .section8-left-section {
+    width: 42%;
+  }
+
+  .section8-right-section {
+    width: 42%;
+  }
+}
